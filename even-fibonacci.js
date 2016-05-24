@@ -1,8 +1,3 @@
-/*
-thank you https://www.thepolyglotdeveloper.com/2015/01/fibonacci-sequence-printed-javascript/,
-for your help
-*/
-
 var firstNum = 0;
 var secondNum = 2;
 var evenFibonacci = 0;
