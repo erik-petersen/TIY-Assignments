@@ -1,7 +1,7 @@
 // Daily code challenge 2016-05-26
 
 var myCurAge = 40;
-var myMaxAge = 131;
+var myMaxAge = 132;
 var snackDailyCost = 5;
 var snacksPerYear = 365;
 var totalCost = (myMaxAge - myCurAge) * snacksPerYear * snackDailyCost;
