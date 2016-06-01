@@ -19,7 +19,7 @@ function pluralize( noun, num ) {
 	return pluralized;
 }
 
-pluralize( "dog", 5 );
-pluralize( "cat", 1 );
-pluralize( "geese", 5 );
-pluralize( "sheep", 9 );
+console.log( pluralize( "dog", 5 ) );
+console.log( pluralize( "cat", 1 ) );
+console.log( pluralize( "geese", 5) );
+console.log( pluralize( "sheep", 9) );
