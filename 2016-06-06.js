@@ -6,10 +6,10 @@ for( var index = 0; index < topDesserts.length; index++ ) {
 	}
 
 	else if( index === 1 || index === 2 ) {
-		console.log( "My " + index + "nd dessert choice is ".concat( topDesserts[index] ) );
+		console.log( "My " + (index + 1) + "nd dessert choice is ".concat( topDesserts[index] ) );
 	}
 
 	else {
-		console.log( "My " + index + "th dessert choice is ".concat( topDesserts[index] ) );
+		console.log( "My " + (index + 1) + "th dessert choice is ".concat( topDesserts[index] ) );
 	}
 }
