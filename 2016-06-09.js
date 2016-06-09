@@ -1,13 +1,14 @@
-function drEvil( amount ) {
+function DrEvil( amount ) {
+
 	if( amount < 1000000 ) {
 	  return amount + " dollars";
 	}
 
 	else {
-		return amount + " dollars (pinky)";
+	  return amount + " dollars (pinky)";
 	}
 
 }
 
-drEvil( 10 );
-drEvil( 1000000 );
+DrEvil( 10 );
+DrEvil( 1000000 );
