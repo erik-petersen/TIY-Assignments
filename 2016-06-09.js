@@ -10,5 +10,5 @@ function DrEvil( amount ) {
 
 }
 
-DrEvil( 10 );
-DrEvil( 1000000 );
+console.log( DrEvil( 10 ) );
+console.log( DrEvil( 1000000 ) );
