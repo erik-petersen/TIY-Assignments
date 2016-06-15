@@ -17,4 +17,5 @@ function fixStart( theString ) {
 	return newString;
 }
 
-fixStart( "babble" );
+console.log( fixStart( "babble" ) );
+console.log( fixStart( "toot" ) );
