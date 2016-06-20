@@ -12,4 +12,5 @@ function notBad( str ) {
 }
 
 console.log( notBad("This dinner is not that bad!") );
-console.log( notBad( "This dinner is bad!") );
+console.log( notBad("This dinner is bad!") );
+console.log( notBad("This dinner is bad not!") );
