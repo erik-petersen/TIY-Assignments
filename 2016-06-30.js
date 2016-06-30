@@ -2,12 +2,12 @@ function frequent( str1, str2 ) {
 	var numTimes = 0;
 
 	for( var index = 0; index < str2.length; index++ ) {
-		if( str2.charAt(index) == "i" ) {
+		if( str2.charAt(index) == "o" ) {
 			numTimes++;
 		}
 	}
 
-	return numTimes;
+	return str2 + " contains the letter " + str1 + " " + numTimes + " times";
 }
 
-console.log( frequent( "i", "victoria" ) );
+console.log( frequent( "o", "victoria" ) );
